@@ -8,6 +8,10 @@ APP STORE/
 *.p12
 *.cer
 
+# Local project notes with sensitive IDs / phone / key paths — keep OUT of the public repo
+CLAUDE.md
+.claude/
+
 # Local Capacitor/node scaffolding (if ever added here)
 node_modules/
 ios/App/Pods/
