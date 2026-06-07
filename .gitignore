@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# App Store / signing secrets — NEVER commit these to a public repo
+APP STORE/
+*.p8
+*.mobileprovision
+*.p12
+*.cer
+
+# Local Capacitor/node scaffolding (if ever added here)
+node_modules/
+ios/App/Pods/
+ios/App/build/
+www/
+dist/
